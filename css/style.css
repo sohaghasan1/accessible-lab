@@ -377,9 +377,14 @@ p {
   font-size: 1rem;
   font-weight: 700;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
-
+.single_student_card .personal_website_link{
+  border-bottom: 1px solid #20252b;
+}
+.single_student_card .personal_website_link:hover::after{
+  width: 0;
+}
 .personal_website_link::after {
   position: absolute;
   content: "";

@@ -146,6 +146,12 @@ and (max-height: 1964px){
         font-size: 80px;
     }
 }
+
+@media(max-width: 1300px){
+    .parallax_wrapper .parallax_img {
+        bottom: 75%;
+    }
+}
 @media(max-width:1024px){
     .startheading h1 {
         font-size: 60px;
