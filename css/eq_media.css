@@ -134,6 +134,9 @@ and (max-height: 1964px){
             top: 8%;
         } 
     }
+    .parallax_wrapper {
+        height: 100vh;
+    }
 }
 @media(max-width:1360px){
     .startheading {

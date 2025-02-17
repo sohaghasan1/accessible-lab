@@ -377,7 +377,7 @@ p {
   font-size: 1rem;
   font-weight: 700;
   position: relative;
-  padding-bottom: 5px;
+  padding-bottom: 4px;
 }
 /* .single_student_card .personal_website_link{
   border-bottom: 1px solid #20252b;
@@ -731,7 +731,7 @@ footer {
   text-decoration: none;
   font-weight: 700;
   color: var(--titleColor);
-  padding-bottom: 5px;
+  padding-bottom: 3px;
 }
 
 .f_link_wrap {
@@ -841,6 +841,7 @@ footer {
   align-items: center;
   font-weight: 700;
   text-transform: capitalize;
+  padding-bottom: 4px;
 }
 
 .hover_line{
