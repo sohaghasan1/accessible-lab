@@ -203,6 +203,14 @@ and (max-height: 1964px){
         display: none;
     }
 }
+@media(max-width:834px){
+    .parallax_wrapper {
+        height: 55vh;
+    }
+    .project-section {
+        margin-top: -40px;
+    }
+}
 
 @media(max-width:767px){
 
@@ -260,11 +268,30 @@ and (max-height: 1964px){
     }
 }
 @media(max-width:575px){
+    .parallax_wrapper .parallax_img:nth-child(3) {
+        bottom: 105px;
+        width: 161%;
+        margin-left: -100px;
+    }
+    .parallax_wrapper .parallax_img {
+        bottom: 80%;
+    }
+    .parallax_wrapper .parallax_img:nth-child(1) {
+        z-index: 8;
+        bottom: 50px;
+        width: 200%;
+        margin-left: 0;
+    }
+    .parallax_wrapper .parallax_img:nth-child(2) {
+        z-index: 7;
+        bottom: 125px;
+        width: 150%;
+    }
     .project-section {
         margin-top: -150px;
     }
     .parallax_wrapper {
-        height: 75vh;
+        height: 70vh;
     }
     .lighting img {
         width: 20%;
