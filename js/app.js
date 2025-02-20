@@ -47,6 +47,37 @@ $(document).ready(function () {
       '<i class="fa-solid fa-chevron-left"></i>',
       '<i class="fa-solid fa-chevron-right"></i>',
     ],
+   
+  });
+});
+
+// professors carousel 
+
+
+$(document).ready(function () {
+  $(".professors_carousel").owlCarousel({
+    items:3,
+    loop: true,
+    dots: false,
+    nav: true,
+    margin: 10,
+    navText: [
+      '<i class="fa-solid fa-chevron-left"></i>',
+      '<i class="fa-solid fa-chevron-right"></i>',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+
+      575: {
+        items: 2,
+      },
+
+      991: {
+        items: 3,
+      },
+    },
   });
 });
 
@@ -70,6 +101,8 @@ function toggleAccordion(element) {
     parentItem.querySelector('.accordion-title').classList.add('open');
   }
 }
+
+
 
 
 // aos

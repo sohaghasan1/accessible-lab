@@ -182,10 +182,42 @@
 
 /* mobile device */
 @media screen and (max-width: 575px) {
+  .professors_carousel.owl-carousel .owl-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .professors_carousel.owl-carousel .owl-nav .owl-next,   .professors_carousel.owl-carousel .owl-nav .owl-prev{
+    width:30px;
+    height:30px;
+    font-size: 18px !important;
+    position: static;
+    margin: 2px 7px;
+  }
   .logo {
     font-size: 1.2rem;
   }
+  .accordion-button{
+    padding: 0;
+  }
+  .our_padding {
+    padding: 15px 0;
+}
+.postdocs .row{
+  position: relative;
 
+}
+.postdocs .personal_website_link{
+  position: absolute;
+  bottom: -40px;
+}
+.phd{
+  margin: 80px 0;
+}
+.postdocs .postdocs_img {
+  margin-top: -40px;
+}
   header {
     min-height: 100vh;
   }
